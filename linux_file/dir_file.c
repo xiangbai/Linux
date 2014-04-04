@@ -24,7 +24,7 @@ int main(int argc , char *argv[])
 	}
 	while((pDirent = readdir(pDir)) != NULL)
 	{
-     //	memset(filename , 0  , 255);
+       //	memset(filename , 0  , 255);
 	//	sprintf(filename , "%s" ,pDirent->d_name);
 		if(strcmp(pDirent->d_name , argv[2]) == 0)
 		{
@@ -32,7 +32,7 @@ int main(int argc , char *argv[])
 			break ;
 		}
 	}
-    if(pDirent == NULL)
+        if(pDirent == NULL)
 	{
 		printf("not the %s file\n",argv[2]);
 	}
