@@ -1,0 +1,2 @@
+cli3:cli3.c
+	gcc -o cli3 cli3.c

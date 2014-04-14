@@ -1,0 +1,2 @@
+cli1:cli1.c
+	gcc -o cli1 cli1.c
